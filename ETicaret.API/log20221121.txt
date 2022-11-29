@@ -1,0 +1,21 @@
+2022-11-21 10:08:29.357 +03:00 [INF] Information
+2022-11-21 10:08:29.462 +03:00 [WRN] Warning
+2022-11-21 10:08:29.470 +03:00 [ERR] Error
+2022-11-21 10:08:29.472 +03:00 [FTL] Fatal
+2022-11-21 10:08:31.748 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-21 10:08:31.757 +03:00 [INF] Hosting environment: Development
+2022-11-21 10:08:31.767 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-21 13:49:01.194 +03:00 [INF] Information
+2022-11-21 13:49:01.240 +03:00 [WRN] Warning
+2022-11-21 13:49:01.244 +03:00 [ERR] Error
+2022-11-21 13:49:01.246 +03:00 [FTL] Fatal
+2022-11-21 13:49:03.070 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-21 13:49:03.074 +03:00 [INF] Hosting environment: Development
+2022-11-21 13:49:03.076 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-21 17:59:15.852 +03:00 [INF] Information
+2022-11-21 17:59:15.903 +03:00 [WRN] Warning
+2022-11-21 17:59:15.907 +03:00 [ERR] Error
+2022-11-21 17:59:15.908 +03:00 [FTL] Fatal
+2022-11-21 17:59:17.153 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-21 17:59:17.164 +03:00 [INF] Hosting environment: Development
+2022-11-21 17:59:17.170 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API

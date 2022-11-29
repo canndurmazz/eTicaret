@@ -1,0 +1,486 @@
+2022-11-16 12:10:10.915 +03:00 [DBG] Loaded hosting startup assembly ETicaret.API
+2022-11-16 12:10:10.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - -
+2022-11-16 12:10:10.948 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-16 12:10:10.949 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-16 12:10:10.951 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:10:10.953 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:10:10.961 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:10:10.983 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-16 12:10:11.108 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-11-16 12:10:11.169 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-11-16 12:10:11.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - -
+2022-11-16 12:10:11.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - -
+2022-11-16 12:10:11.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 252.4396ms
+2022-11-16 12:10:11.203 +03:00 [DBG] Connection ID "18302628912208806038" disconnecting.
+2022-11-16 12:10:11.203 +03:00 [DBG] Connection ID "18086456138684956838" disconnecting.
+2022-11-16 12:10:11.208 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.5933ms
+2022-11-16 12:10:11.246 +03:00 [DBG] Connection ID "18374686484771897551" disconnecting.
+2022-11-16 12:10:11.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0111ms
+2022-11-16 12:10:11.263 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - -
+2022-11-16 12:10:11.264 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - -
+2022-11-16 12:10:11.269 +03:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-11-16 12:10:11.269 +03:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-11-16 12:10:11.302 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-11-16 12:10:11.302 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-11-16 12:10:11.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - -
+2022-11-16 12:10:11.308 +03:00 [DBG] Request did not match any endpoints
+2022-11-16 12:10:11.308 +03:00 [DBG] Request did not match any endpoints
+2022-11-16 12:10:11.314 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - - - 404 - - 50.7948ms
+2022-11-16 12:10:11.315 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 49.7294ms
+2022-11-16 12:10:11.421 +03:00 [DBG] Connection ID "17942340933429231641" disconnecting.
+2022-11-16 12:10:11.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.2822ms
+2022-11-16 12:10:52.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Category - -
+2022-11-16 12:10:52.228 +03:00 [DBG] The request path  does not match the path filter
+2022-11-16 12:10:52.239 +03:00 [DBG] 1 candidate(s) found for the request path '/Category'
+2022-11-16 12:10:52.247 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)' with route pattern 'Category' is valid for the request path '/Category'
+2022-11-16 12:10:52.250 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:10:52.255 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:10:52.265 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-16 12:10:52.283 +03:00 [INF] Route matched with {action = "Get", controller = "Category"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CategoryDto] Get() on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:10:52.290 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:10:52.292 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:10:52.294 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:10:52.296 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:10:52.298 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:10:52.302 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:10:52.458 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:10:53.549 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-16 12:10:53.554 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-11-16 12:10:53.556 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-11-16 12:10:53.558 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-16 12:10:53.559 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-16 12:10:53.561 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-16 12:10:53.563 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CategoryDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:10:53.580 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Get (ETicaret.API) in 1276.3013ms
+2022-11-16 12:10:53.583 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:10:53.585 +03:00 [DBG] Connection ID "18014398510287290521" disconnecting.
+2022-11-16 12:10:53.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Category - - - 200 - application/json;+charset=utf-8 1364.7269ms
+2022-11-16 12:11:12.033 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Company - -
+2022-11-16 12:11:12.035 +03:00 [DBG] The request path  does not match the path filter
+2022-11-16 12:11:12.037 +03:00 [DBG] 1 candidate(s) found for the request path '/Company'
+2022-11-16 12:11:12.042 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)' with route pattern 'Company' is valid for the request path '/Company'
+2022-11-16 12:11:12.045 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:12.048 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:12.051 +03:00 [INF] Route matched with {action = "Get", controller = "Company"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CompanyDto] Get() on controller ETicaret.API.Controllers.CompanyController (ETicaret.API).
+2022-11-16 12:11:12.054 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:11:12.057 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:11:12.061 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:11:12.064 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:11:12.067 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:11:12.068 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:11:12.071 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:11:12.254 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-16 12:11:12.257 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-11-16 12:11:12.260 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-11-16 12:11:12.262 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-16 12:11:12.263 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-16 12:11:12.264 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-16 12:11:12.266 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CompanyDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:11:12.273 +03:00 [INF] Executed action ETicaret.API.Controllers.CompanyController.Get (ETicaret.API) in 204.8057ms
+2022-11-16 12:11:12.276 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:12.278 +03:00 [DBG] Connection ID "18014398510287290523" disconnecting.
+2022-11-16 12:11:12.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Company - - - 200 - application/json;+charset=utf-8 245.4863ms
+2022-11-16 12:11:26.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Company - -
+2022-11-16 12:11:26.816 +03:00 [DBG] The request path  does not match the path filter
+2022-11-16 12:11:26.818 +03:00 [DBG] 1 candidate(s) found for the request path '/Company'
+2022-11-16 12:11:26.821 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)' with route pattern 'Company' is valid for the request path '/Company'
+2022-11-16 12:11:26.823 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:26.825 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:26.828 +03:00 [INF] Route matched with {action = "Get", controller = "Company"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CompanyDto] Get() on controller ETicaret.API.Controllers.CompanyController (ETicaret.API).
+2022-11-16 12:11:26.830 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:11:26.833 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:11:26.835 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:11:26.836 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:11:26.838 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:11:26.839 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:11:26.843 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:11:26.860 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-16 12:11:26.864 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-11-16 12:11:26.866 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-11-16 12:11:26.868 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-16 12:11:26.870 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-16 12:11:26.871 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-16 12:11:26.873 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CompanyDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:11:26.876 +03:00 [INF] Executed action ETicaret.API.Controllers.CompanyController.Get (ETicaret.API) in 36.585ms
+2022-11-16 12:11:26.881 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CompanyController.Get (ETicaret.API)'
+2022-11-16 12:11:26.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Company - - - 200 - application/json;+charset=utf-8 70.0565ms
+2022-11-16 12:11:26.883 +03:00 [DBG] Connection ID "18086456138684956840" disconnecting.
+2022-11-16 12:11:44.748 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44387/Category/123213 - -
+2022-11-16 12:11:44.751 +03:00 [DBG] DELETE requests are not supported
+2022-11-16 12:11:44.753 +03:00 [DBG] 1 candidate(s) found for the request path '/Category/123213'
+2022-11-16 12:11:44.755 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)' with route pattern 'Category/{ıd}' is valid for the request path '/Category/123213'
+2022-11-16 12:11:44.757 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:11:44.759 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:11:44.770 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Void Delete(Int32) on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:11:44.772 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:11:44.774 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:11:44.775 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:11:44.777 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:11:44.778 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:11:44.780 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:11:44.782 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:11:44.788 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:11:44.792 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' using the name 'ıd' in request data ...
+2022-11-16 12:11:44.795 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:11:44.798 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:11:44.800 +03:00 [DBG] Attempting to validate the bound parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:11:44.803 +03:00 [DBG] Done attempting to validate the bound parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:11:46.008 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API) in 1227.8028ms
+2022-11-16 12:11:46.011 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:11:46.015 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Kategori bulunamadı, bulunamayan kategori id 123213
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 34
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 51
+   at ETicaret.Business.Concrete.ETicaretManager.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.Business\Concrete\ETicaretManager.cs:line 35
+   at ETicaret.API.Controllers.CategoryController.Delete(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.API\Controllers\CategoryController.cs:line 41
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-16 12:11:46.045 +03:00 [DBG] Connection ID "18086456138684956842" disconnecting.
+2022-11-16 12:11:46.047 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44387/Category/123213 - - - 500 - text/plain 1296.8233ms
+2022-11-16 12:20:00.431 +03:00 [DBG] Loaded hosting startup assembly ETicaret.API
+2022-11-16 12:20:00.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - -
+2022-11-16 12:20:00.465 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-16 12:20:00.467 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-16 12:20:00.469 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:20:00.470 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:20:00.472 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:20:00.497 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-16 12:20:00.621 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-11-16 12:20:00.691 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-11-16 12:20:00.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - -
+2022-11-16 12:20:00.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - -
+2022-11-16 12:20:00.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 256.9296ms
+2022-11-16 12:20:00.723 +03:00 [DBG] Connection ID "18158513724132950137" disconnecting.
+2022-11-16 12:20:00.723 +03:00 [DBG] Connection ID "18374686484771897564" disconnecting.
+2022-11-16 12:20:00.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 23.7637ms
+2022-11-16 12:20:00.779 +03:00 [DBG] Connection ID "18374686501951766601" disconnecting.
+2022-11-16 12:20:00.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.8617ms
+2022-11-16 12:20:00.802 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - -
+2022-11-16 12:20:00.804 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - -
+2022-11-16 12:20:00.809 +03:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2022-11-16 12:20:00.809 +03:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2022-11-16 12:20:00.837 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2022-11-16 12:20:00.837 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2022-11-16 12:20:00.841 +03:00 [DBG] Request did not match any endpoints
+2022-11-16 12:20:00.841 +03:00 [DBG] Request did not match any endpoints
+2022-11-16 12:20:00.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - -
+2022-11-16 12:20:00.850 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - - - 404 - - 48.1024ms
+2022-11-16 12:20:00.850 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 45.8635ms
+2022-11-16 12:20:00.957 +03:00 [DBG] Connection ID "18230571339645714538" disconnecting.
+2022-11-16 12:20:00.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.0684ms
+2022-11-16 12:20:18.461 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44387/Category/10 - -
+2022-11-16 12:20:18.464 +03:00 [DBG] DELETE requests are not supported
+2022-11-16 12:20:18.471 +03:00 [DBG] 1 candidate(s) found for the request path '/Category/10'
+2022-11-16 12:20:18.479 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)' with route pattern 'Category/{ıd}' is valid for the request path '/Category/10'
+2022-11-16 12:20:18.482 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:20:18.485 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:20:18.494 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-16 12:20:18.518 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Void Delete(Int32) on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:20:18.524 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:20:18.527 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:20:18.529 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:20:18.531 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:20:18.532 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:20:18.535 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:20:18.746 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:20:18.753 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:20:18.758 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' using the name 'ıd' in request data ...
+2022-11-16 12:20:18.760 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:20:18.762 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:20:18.764 +03:00 [DBG] Attempting to validate the bound parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:20:18.767 +03:00 [DBG] Done attempting to validate the bound parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:20:20.121 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API) in 1583.4816ms
+2022-11-16 12:20:20.123 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:20:20.125 +03:00 [DBG] Connection ID "18374686480476930247" disconnecting.
+2022-11-16 12:20:20.130 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44387/Category/10 - - - 200 - - 1668.9233ms
+2022-11-16 12:21:03.130 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44387/Category/11 - -
+2022-11-16 12:21:03.133 +03:00 [DBG] DELETE requests are not supported
+2022-11-16 12:21:03.135 +03:00 [DBG] 1 candidate(s) found for the request path '/Category/11'
+2022-11-16 12:21:03.141 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)' with route pattern 'Category/{ıd}' is valid for the request path '/Category/11'
+2022-11-16 12:21:03.144 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:21:03.147 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:21:03.150 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Void Delete(Int32) on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:21:03.153 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:21:03.155 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:21:03.157 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:21:03.159 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:21:03.160 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:21:03.163 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:21:03.167 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CategoryController (ETicaret.API)
+2022-11-16 12:21:03.169 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:21:03.171 +03:00 [DBG] Attempting to bind parameter 'ıd' of type 'System.Int32' using the name 'ıd' in request data ...
+2022-11-16 12:21:03.173 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:21:03.174 +03:00 [DBG] Done attempting to bind parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:21:03.175 +03:00 [DBG] Attempting to validate the bound parameter 'ıd' of type 'System.Int32' ...
+2022-11-16 12:21:03.178 +03:00 [DBG] Done attempting to validate the bound parameter 'ıd' of type 'System.Int32'.
+2022-11-16 12:21:03.217 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API) in 53.87ms
+2022-11-16 12:21:03.219 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Delete (ETicaret.API)'
+2022-11-16 12:21:03.221 +03:00 [DBG] Connection ID "18302628912208806065" disconnecting.
+2022-11-16 12:21:03.223 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44387/Category/11 - - - 200 - - 91.9637ms
+2022-11-16 12:22:05.837 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44387/Company application/json 273
+2022-11-16 12:22:05.840 +03:00 [DBG] POST requests are not supported
+2022-11-16 12:22:05.879 +03:00 [DBG] 1 candidate(s) found for the request path '/Company'
+2022-11-16 12:22:05.882 +03:00 [DBG] Endpoint 'ETicaret.API.Controllers.CompanyController.Post (ETicaret.API)' with route pattern 'Company' is valid for the request path '/Company'
+2022-11-16 12:22:05.884 +03:00 [DBG] Request matched endpoint 'ETicaret.API.Controllers.CompanyController.Post (ETicaret.API)'
+2022-11-16 12:22:05.885 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CompanyController.Post (ETicaret.API)'
+2022-11-16 12:22:05.888 +03:00 [INF] Route matched with {action = "Post", controller = "Company"}. Executing controller action with signature ETicaret.Conctrats.CompanyDto Post(ETicaret.Conctrats.CompanyDto) on controller ETicaret.API.Controllers.CompanyController (ETicaret.API).
+2022-11-16 12:22:05.889 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-11-16 12:22:05.891 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-11-16 12:22:05.892 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-16 12:22:05.894 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-11-16 12:22:05.896 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-16 12:22:05.897 +03:00 [DBG] Executing controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:22:05.900 +03:00 [DBG] Executed controller factory for controller ETicaret.API.Controllers.CompanyController (ETicaret.API)
+2022-11-16 12:22:05.902 +03:00 [DBG] Attempting to bind parameter 'company' of type 'ETicaret.Conctrats.CompanyDto' ...
+2022-11-16 12:22:05.904 +03:00 [DBG] Attempting to bind parameter 'company' of type 'ETicaret.Conctrats.CompanyDto' using the name '' in request data ...
+2022-11-16 12:22:05.906 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-11-16 12:22:05.932 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'ETicaret.Conctrats.CompanyDto'
+2022-11-16 12:22:05.935 +03:00 [DBG] Done attempting to bind parameter 'company' of type 'ETicaret.Conctrats.CompanyDto'.
+2022-11-16 12:22:05.937 +03:00 [DBG] Done attempting to bind parameter 'company' of type 'ETicaret.Conctrats.CompanyDto'.
+2022-11-16 12:22:05.939 +03:00 [DBG] Attempting to validate the bound parameter 'company' of type 'ETicaret.Conctrats.CompanyDto' ...
+2022-11-16 12:22:05.942 +03:00 [DBG] Done attempting to validate the bound parameter 'company' of type 'ETicaret.Conctrats.CompanyDto'.
+2022-11-16 12:22:06.066 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-16 12:22:06.070 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-11-16 12:22:06.072 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-11-16 12:22:06.074 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-16 12:22:06.075 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-16 12:22:06.077 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-16 12:22:06.079 +03:00 [INF] Executing ObjectResult, writing value of type 'ETicaret.Conctrats.CompanyDto'.
+2022-11-16 12:22:06.090 +03:00 [INF] Executed action ETicaret.API.Controllers.CompanyController.Post (ETicaret.API) in 192.8673ms
+2022-11-16 12:22:06.092 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CompanyController.Post (ETicaret.API)'
+2022-11-16 12:22:06.094 +03:00 [DBG] Connection ID "18302628929388675201" disconnecting.
+2022-11-16 12:22:06.095 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44387/Company application/json 273 - 200 - application/json;+charset=utf-8 257.5593ms
+2022-11-16 12:23:12.593 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:23:12.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - -
+2022-11-16 12:23:12.636 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:23:12.638 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:23:12.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 232.3855ms
+2022-11-16 12:23:12.845 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - -
+2022-11-16 12:23:12.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - -
+2022-11-16 12:23:12.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 28.5400ms
+2022-11-16 12:23:12.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.9346ms
+2022-11-16 12:23:12.938 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - -
+2022-11-16 12:23:12.939 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - -
+2022-11-16 12:23:12.975 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - - - 404 - - 36.2969ms
+2022-11-16 12:23:12.976 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 37.4829ms
+2022-11-16 12:23:12.983 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - -
+2022-11-16 12:23:13.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.5698ms
+2022-11-16 12:23:16.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Category - -
+2022-11-16 12:23:16.105 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:23:16.128 +03:00 [INF] Route matched with {action = "Get", controller = "Category"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CategoryDto] Get() on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:23:17.476 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CategoryDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:23:17.495 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Get (ETicaret.API) in 1359.9891ms
+2022-11-16 12:23:17.498 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:23:17.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Category - - - 200 - application/json;+charset=utf-8 1406.6347ms
+2022-11-16 12:23:54.801 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:23:54.839 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:23:54.842 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:24:35.909 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Kategori bulunamadı, bulunamayan kategori id 32424234
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 34
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 51
+   at ETicaret.Business.Concrete.ETicaretManager.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.Business\Concrete\ETicaretManager.cs:line 35
+   at ETicaret.API.Controllers.CategoryController.Delete(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.API\Controllers\CategoryController.cs:line 41
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-16 12:27:35.802 +03:00 [INF] Information
+2022-11-16 12:27:35.846 +03:00 [WRN] Warning
+2022-11-16 12:27:35.851 +03:00 [ERR] Error
+2022-11-16 12:27:35.852 +03:00 [FTL] Fatal
+2022-11-16 12:27:36.721 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:27:36.727 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:27:36.730 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:28:05.880 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Kategori bulunamadı, bulunamayan kategori id 324234
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 34
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 51
+   at ETicaret.Business.Concrete.ETicaretManager.DeleteCategoryById(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.Business\Concrete\ETicaretManager.cs:line 35
+   at ETicaret.API.Controllers.CategoryController.Delete(Int32 ıd) in C:\Users\cann_\source\repos\eTicaret\ETicaret.API\Controllers\CategoryController.cs:line 41
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-16 12:29:03.541 +03:00 [INF] Information
+2022-11-16 12:29:03.584 +03:00 [WRN] Warning
+2022-11-16 12:29:03.615 +03:00 [ERR] Error
+2022-11-16 12:29:03.616 +03:00 [FTL] Fatal
+2022-11-16 12:29:04.555 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:29:04.561 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:29:04.563 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:29:47.538 +03:00 [INF] Information
+2022-11-16 12:29:47.587 +03:00 [WRN] Warning
+2022-11-16 12:29:47.591 +03:00 [ERR] Error
+2022-11-16 12:29:47.593 +03:00 [FTL] Fatal
+2022-11-16 12:29:48.318 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 12:29:48.323 +03:00 [INF] Hosting environment: Development
+2022-11-16 12:29:48.325 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 12:29:48.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - -
+2022-11-16 12:29:48.557 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - -
+2022-11-16 12:29:48.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - -
+2022-11-16 12:29:48.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 221.1421ms
+2022-11-16 12:29:48.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 23.5512ms
+2022-11-16 12:29:48.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.6072ms
+2022-11-16 12:29:48.639 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - -
+2022-11-16 12:29:48.642 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - -
+2022-11-16 12:29:48.672 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 30.0991ms
+2022-11-16 12:29:48.672 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44387/swagger/swagger-ui-bundle.js.map - - - 404 - - 32.6520ms
+2022-11-16 12:29:48.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - -
+2022-11-16 12:29:48.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.4122ms
+2022-11-16 12:29:56.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Category - -
+2022-11-16 12:29:56.173 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:29:56.194 +03:00 [INF] Route matched with {action = "Get", controller = "Category"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CategoryDto] Get() on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:29:57.548 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CategoryDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:29:57.566 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Get (ETicaret.API) in 1365.7323ms
+2022-11-16 12:29:57.570 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:29:57.576 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Category - - - 200 - application/json;+charset=utf-8 1410.3424ms
+2022-11-16 12:30:15.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44387/Category - -
+2022-11-16 12:30:15.152 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:30:15.155 +03:00 [INF] Route matched with {action = "Get", controller = "Category"}. Executing controller action with signature System.Collections.Generic.List`1[ETicaret.Conctrats.CategoryDto] Get() on controller ETicaret.API.Controllers.CategoryController (ETicaret.API).
+2022-11-16 12:30:15.186 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Conctrats.CategoryDto, ETicaret.Conctrats, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-16 12:30:15.189 +03:00 [INF] Executed action ETicaret.API.Controllers.CategoryController.Get (ETicaret.API) in 31.9049ms
+2022-11-16 12:30:15.190 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.CategoryController.Get (ETicaret.API)'
+2022-11-16 12:30:15.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44387/Category - - - 200 - application/json;+charset=utf-8 46.0363ms
+2022-11-16 13:40:22.104 +03:00 [INF] Information
+2022-11-16 13:40:22.163 +03:00 [WRN] Warning
+2022-11-16 13:40:22.167 +03:00 [ERR] Error
+2022-11-16 13:40:22.168 +03:00 [FTL] Fatal
+2022-11-16 13:40:23.008 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 13:40:23.014 +03:00 [INF] Hosting environment: Development
+2022-11-16 13:40:23.017 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 13:46:09.667 +03:00 [INF] Information
+2022-11-16 13:46:09.732 +03:00 [WRN] Warning
+2022-11-16 13:46:09.738 +03:00 [ERR] Error
+2022-11-16 13:46:09.740 +03:00 [FTL] Fatal
+2022-11-16 13:46:11.045 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 13:46:11.052 +03:00 [INF] Hosting environment: Development
+2022-11-16 13:46:11.055 +03:00 [INF] Content root path: C:\Users\cann_\source\repos\eTicaret\ETicaret.API
+2022-11-16 13:55:54.049 +03:00 [INF] Information
+2022-11-16 13:55:54.093 +03:00 [WRN] Warning
+2022-11-16 13:55:54.098 +03:00 [ERR] Error
+2022-11-16 13:55:54.099 +03:00 [FTL] Fatal
+2022-11-16 13:55:57.138 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 13:55:57.145 +03:00 [INF] Hosting environment: Development
+2022-11-16 13:55:57.147 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 13:56:30.209 +03:00 [INF] Information
+2022-11-16 13:56:30.255 +03:00 [WRN] Warning
+2022-11-16 13:56:30.311 +03:00 [ERR] Error
+2022-11-16 13:56:30.313 +03:00 [FTL] Fatal
+2022-11-16 13:56:31.385 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 13:56:31.397 +03:00 [INF] Hosting environment: Development
+2022-11-16 13:56:31.403 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 13:59:48.874 +03:00 [INF] Information
+2022-11-16 13:59:48.923 +03:00 [WRN] Warning
+2022-11-16 13:59:48.928 +03:00 [ERR] Error
+2022-11-16 13:59:48.929 +03:00 [FTL] Fatal
+2022-11-16 13:59:50.033 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 13:59:50.044 +03:00 [INF] Hosting environment: Development
+2022-11-16 13:59:50.048 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 14:02:21.553 +03:00 [INF] Information
+2022-11-16 14:02:21.630 +03:00 [WRN] Warning
+2022-11-16 14:02:21.635 +03:00 [ERR] Error
+2022-11-16 14:02:21.637 +03:00 [FTL] Fatal
+2022-11-16 14:02:22.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 14:02:22.542 +03:00 [INF] Hosting environment: Development
+2022-11-16 14:02:22.544 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 14:02:50.553 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Şirket bulunamadı, bulunamayan şirket id 2
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetCompanyById(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 453
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.CreateWaitingProduct(WaitingProduct product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 209
+   at ETicaret.Business.Concrete.ETicaretManager.CreateWaitingProduct(WaitingProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 130
+   at ETicaret.API.Controllers.ProductController.Post(WaitingProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\ProductController.cs:line 48
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-16 14:03:50.434 +03:00 [INF] Information
+2022-11-16 14:03:50.505 +03:00 [WRN] Warning
+2022-11-16 14:03:50.513 +03:00 [ERR] Error
+2022-11-16 14:03:50.521 +03:00 [FTL] Fatal
+2022-11-16 14:03:51.305 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 14:03:51.312 +03:00 [INF] Hosting environment: Development
+2022-11-16 14:03:51.315 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 14:05:02.887 +03:00 [INF] Information
+2022-11-16 14:05:02.932 +03:00 [WRN] Warning
+2022-11-16 14:05:02.936 +03:00 [ERR] Error
+2022-11-16 14:05:02.937 +03:00 [FTL] Fatal
+2022-11-16 14:05:03.760 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 14:05:03.765 +03:00 [INF] Hosting environment: Development
+2022-11-16 14:05:03.767 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 14:06:46.477 +03:00 [INF] Information
+2022-11-16 14:06:46.522 +03:00 [WRN] Warning
+2022-11-16 14:06:46.525 +03:00 [ERR] Error
+2022-11-16 14:06:46.526 +03:00 [FTL] Fatal
+2022-11-16 14:06:47.350 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 14:06:47.355 +03:00 [INF] Hosting environment: Development
+2022-11-16 14:06:47.357 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-16 16:42:30.519 +03:00 [INF] Information
+2022-11-16 16:42:30.568 +03:00 [WRN] Warning
+2022-11-16 16:42:30.572 +03:00 [ERR] Error
+2022-11-16 16:42:30.574 +03:00 [FTL] Fatal
+2022-11-16 16:42:49.536 +03:00 [INF] Information
+2022-11-16 16:42:49.587 +03:00 [WRN] Warning
+2022-11-16 16:42:49.593 +03:00 [ERR] Error
+2022-11-16 16:42:49.594 +03:00 [FTL] Fatal
+2022-11-16 16:43:05.626 +03:00 [INF] Information
+2022-11-16 16:43:05.676 +03:00 [WRN] Warning
+2022-11-16 16:43:05.682 +03:00 [ERR] Error
+2022-11-16 16:43:05.683 +03:00 [FTL] Fatal
+2022-11-16 16:43:06.447 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-16 16:43:06.453 +03:00 [INF] Hosting environment: Development
+2022-11-16 16:43:06.456 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API

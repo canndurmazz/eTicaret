@@ -1,0 +1,7 @@
+2022-11-18 09:32:16.631 +03:00 [INF] Information
+2022-11-18 09:32:16.698 +03:00 [WRN] Warning
+2022-11-18 09:32:16.703 +03:00 [ERR] Error
+2022-11-18 09:32:16.705 +03:00 [FTL] Fatal
+2022-11-18 09:32:19.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-18 09:32:19.492 +03:00 [INF] Hosting environment: Development
+2022-11-18 09:32:19.495 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API

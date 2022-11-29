@@ -1,0 +1,280 @@
+2022-11-20 14:12:29.351 +03:00 [INF] Information
+2022-11-20 14:12:29.461 +03:00 [WRN] Warning
+2022-11-20 14:12:29.466 +03:00 [ERR] Error
+2022-11-20 14:12:29.468 +03:00 [FTL] Fatal
+2022-11-20 14:12:31.449 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:12:31.458 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:12:31.498 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:14:00.484 +03:00 [INF] Information
+2022-11-20 14:14:00.531 +03:00 [WRN] Warning
+2022-11-20 14:14:00.535 +03:00 [ERR] Error
+2022-11-20 14:14:00.537 +03:00 [FTL] Fatal
+2022-11-20 14:14:01.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:14:01.539 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:14:01.542 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:14:02.679 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'adminn' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:26:55.228 +03:00 [INF] Information
+2022-11-20 14:26:55.286 +03:00 [WRN] Warning
+2022-11-20 14:26:55.290 +03:00 [ERR] Error
+2022-11-20 14:26:55.312 +03:00 [FTL] Fatal
+2022-11-20 14:26:56.237 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:26:56.241 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:26:56.243 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:32:16.283 +03:00 [INF] Information
+2022-11-20 14:32:16.333 +03:00 [WRN] Warning
+2022-11-20 14:32:16.336 +03:00 [ERR] Error
+2022-11-20 14:32:16.338 +03:00 [FTL] Fatal
+2022-11-20 14:32:17.412 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:32:17.416 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:32:17.418 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:34:26.484 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.CreateProduct(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 158
+   at ETicaret.Business.Concrete.ETicaretManager.CreateProduct(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 64
+   at ETicaret.API.Controllers.SiteController.CreateProduct(Int32 productId) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\SiteController.cs:line 56
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:37:22.805 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.CreateShopping(Shopping shopping) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 370
+   at ETicaret.Business.Concrete.ETicaretManager.CreateShopping(ShoppingDto shopping) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 181
+   at ETicaret.API.Controllers.ShoppingController.Post(ShoppingDto shopping) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\ShoppingController.cs:line 27
+   at lambda_method593(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:44:20.827 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Ürün bulunamadı, bulunamayan ürün id 1
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetWaitingProductById(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 271
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.CreateProduct(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 138
+   at ETicaret.Business.Concrete.ETicaretManager.CreateProduct(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 64
+   at ETicaret.API.Controllers.SiteController.CreateProduct(Int32 productId) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\SiteController.cs:line 56
+   at lambda_method6(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:54:42.673 +03:00 [INF] Information
+2022-11-20 14:54:42.718 +03:00 [WRN] Warning
+2022-11-20 14:54:42.722 +03:00 [ERR] Error
+2022-11-20 14:54:42.724 +03:00 [FTL] Fatal
+2022-11-20 14:54:43.896 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:54:43.900 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:54:43.903 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:54:44.379 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Site/Earning" for actions - ETicaret.API.Controllers.SiteController.GetEarning (ETicaret.API),ETicaret.API.Controllers.SiteController.Earning (ETicaret.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:55:18.089 +03:00 [INF] Information
+2022-11-20 14:55:18.132 +03:00 [WRN] Warning
+2022-11-20 14:55:18.136 +03:00 [ERR] Error
+2022-11-20 14:55:18.137 +03:00 [FTL] Fatal
+2022-11-20 14:55:19.141 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:55:19.145 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:55:19.147 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:55:19.630 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Site/Earning" for actions - ETicaret.API.Controllers.SiteController.GetEarning (ETicaret.API),ETicaret.API.Controllers.SiteController.Earning (ETicaret.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 14:56:36.942 +03:00 [INF] Information
+2022-11-20 14:56:36.987 +03:00 [WRN] Warning
+2022-11-20 14:56:36.993 +03:00 [ERR] Error
+2022-11-20 14:56:36.995 +03:00 [FTL] Fatal
+2022-11-20 14:56:37.998 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:56:38.006 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:56:38.012 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 14:57:09.595 +03:00 [INF] Information
+2022-11-20 14:57:09.665 +03:00 [WRN] Warning
+2022-11-20 14:57:09.670 +03:00 [ERR] Error
+2022-11-20 14:57:09.672 +03:00 [FTL] Fatal
+2022-11-20 14:57:10.624 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 14:57:10.627 +03:00 [INF] Hosting environment: Development
+2022-11-20 14:57:10.630 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 15:00:35.238 +03:00 [INF] Information
+2022-11-20 15:00:35.279 +03:00 [WRN] Warning
+2022-11-20 15:00:35.283 +03:00 [ERR] Error
+2022-11-20 15:00:35.284 +03:00 [FTL] Fatal
+2022-11-20 15:00:36.219 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 15:00:36.222 +03:00 [INF] Hosting environment: Development
+2022-11-20 15:00:36.224 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 15:03:31.401 +03:00 [INF] Information
+2022-11-20 15:03:31.447 +03:00 [WRN] Warning
+2022-11-20 15:03:31.451 +03:00 [ERR] Error
+2022-11-20 15:03:31.452 +03:00 [FTL] Fatal
+2022-11-20 15:03:32.518 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 15:03:32.522 +03:00 [INF] Hosting environment: Development
+2022-11-20 15:03:32.524 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 15:06:32.508 +03:00 [INF] Information
+2022-11-20 15:06:32.553 +03:00 [WRN] Warning
+2022-11-20 15:06:32.558 +03:00 [ERR] Error
+2022-11-20 15:06:32.559 +03:00 [FTL] Fatal
+2022-11-20 15:06:33.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 15:06:33.701 +03:00 [INF] Hosting environment: Development
+2022-11-20 15:06:33.703 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 16:06:33.990 +03:00 [INF] Information
+2022-11-20 16:06:34.039 +03:00 [WRN] Warning
+2022-11-20 16:06:34.078 +03:00 [ERR] Error
+2022-11-20 16:06:34.079 +03:00 [FTL] Fatal
+2022-11-20 16:06:35.700 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 16:06:35.703 +03:00 [INF] Hosting environment: Development
+2022-11-20 16:06:35.706 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 16:18:17.558 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Ürün bulunamadı, bulunamayan ürün id 0
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetProductById(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 91
+   at ETicaret.Business.Concrete.ETicaretManager.UpdateProduct(ProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 89
+   at ETicaret.API.Controllers.ProductController.Put(ProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\ProductController.cs:line 39
+   at lambda_method705(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 17:57:35.342 +03:00 [INF] Information
+2022-11-20 17:57:35.398 +03:00 [WRN] Warning
+2022-11-20 17:57:35.403 +03:00 [ERR] Error
+2022-11-20 17:57:35.405 +03:00 [FTL] Fatal
+2022-11-20 17:57:37.232 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 17:57:37.242 +03:00 [INF] Hosting environment: Development
+2022-11-20 17:57:37.247 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 18:11:17.508 +03:00 [INF] Information
+2022-11-20 18:11:17.554 +03:00 [WRN] Warning
+2022-11-20 18:11:17.559 +03:00 [ERR] Error
+2022-11-20 18:11:17.560 +03:00 [FTL] Fatal
+2022-11-20 18:11:18.687 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 18:11:18.691 +03:00 [INF] Hosting environment: Development
+2022-11-20 18:11:18.693 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 18:12:21.421 +03:00 [INF] Information
+2022-11-20 18:12:21.483 +03:00 [WRN] Warning
+2022-11-20 18:12:21.488 +03:00 [ERR] Error
+2022-11-20 18:12:21.490 +03:00 [FTL] Fatal
+2022-11-20 18:12:22.863 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 18:12:22.867 +03:00 [INF] Hosting environment: Development
+2022-11-20 18:12:22.869 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
+2022-11-20 18:14:05.315 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Ürün bulunamadı, bulunamayan ürün id 2
+   at eTicaret.DataAccsess.Concrete.ETicaretRepository.GetWaitingProductById(Int32 ıd) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\eTicaret.DataAccsess\Concrete\ETicaretRepository.cs:line 271
+   at ETicaret.Business.Concrete.ETicaretManager.UpdateWaitingProduct(WaitingProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.Business\Concrete\ETicaretManager.cs:line 120
+   at ETicaret.API.Controllers.WaitingProductController.Put(WaitingProductDto product) in C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API\Controllers\WaitingProductController.cs:line 53
+   at lambda_method61(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-20 18:15:19.577 +03:00 [INF] Information
+2022-11-20 18:15:19.634 +03:00 [WRN] Warning
+2022-11-20 18:15:19.639 +03:00 [ERR] Error
+2022-11-20 18:15:19.640 +03:00 [FTL] Fatal
+2022-11-20 18:15:20.711 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-20 18:15:20.714 +03:00 [INF] Hosting environment: Development
+2022-11-20 18:15:20.716 +03:00 [INF] Content root path: C:\Users\cann_\OneDrive\Masaüstü\CopyProject\ETicaret.API
