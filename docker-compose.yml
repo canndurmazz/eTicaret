@@ -11,10 +11,7 @@ services:
       - 80::80 
     networks: 
       - micro_net
-      
-
-
-
+     
 networks:
   int_net:
     driver: overlay
