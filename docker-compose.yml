@@ -1,20 +1,11 @@
 version: '3.1'
 
 services:
-  s_api_gateway:
-    container_name: c_api_gateway
-    image: candurmaz/eticaret 
-    build: 
-      context: .
-      dockerfile: ETicaret.API/Dockerfile
+  s_jenkins:
+    container_name: c_jenkins
     ports:
-      - 80::80 
-    networks: 
-      - micro_net
-     
-networks:
-  int_net:
-    driver: overlay
-    internal: true
-  micro_net: 
-    driver: bridge
+      - 8080:8080
+      - 50000:5000
+    volumes:
+      - var/run/docker.sock:/var/run/docker.sock
+      - /home/centos/opt/app_data/jenkins
